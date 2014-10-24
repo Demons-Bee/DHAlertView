@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5D9DCF19FA04770091C4D2 /* DHAlert.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D9DCC19FA04770091C4D2 /* DHAlert.gif */; };
+		5B5D9DD019FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.47.51.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D9DCD19FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.47.51.png */; };
+		5B5D9DD119FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.48.34.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5D9DCE19FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.48.34.png */; };
 		5BE58E9C19D2518D00567073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE58E9B19D2518D00567073 /* Foundation.framework */; };
 		5BE58E9E19D2518D00567073 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE58E9D19D2518D00567073 /* CoreGraphics.framework */; };
 		5BE58EA019D2518D00567073 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE58E9F19D2518D00567073 /* UIKit.framework */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B5D9DCC19FA04770091C4D2 /* DHAlert.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DHAlert.gif; sourceTree = "<group>"; };
+		5B5D9DCD19FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.47.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot 2014年10月24日 11.47.51.png"; sourceTree = "<group>"; };
+		5B5D9DCE19FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.48.34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot 2014年10月24日 11.48.34.png"; sourceTree = "<group>"; };
 		5BE58E9819D2518D00567073 /* DHAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE58E9B19D2518D00567073 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BE58E9D19D2518D00567073 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5D9DCB19FA014F0091C4D2 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5B5D9DCC19FA04770091C4D2 /* DHAlert.gif */,
+				5B5D9DCD19FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.47.51.png */,
+				5B5D9DCE19FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.48.34.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		5BE58E8F19D2518D00567073 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +129,7 @@
 		5BE58EA119D2518D00567073 /* DHAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				5B5D9DCB19FA014F0091C4D2 /* screenshots */,
 				5BE58EAA19D2518D00567073 /* AppDelegate.h */,
 				5BE58EAB19D2518D00567073 /* AppDelegate.m */,
 				5BE58EAD19D2518D00567073 /* Images.xcassets */,
@@ -229,8 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5D9DD019FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.47.51.png in Resources */,
+				5B5D9DD119FA04770091C4D2 /* iOS Simulator Screen Shot 2014年10月24日 11.48.34.png in Resources */,
 				5BE58EA619D2518D00567073 /* InfoPlist.strings in Resources */,
 				5BE58EAE19D2518D00567073 /* Images.xcassets in Resources */,
+				5B5D9DCF19FA04770091C4D2 /* DHAlert.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +471,7 @@
 				5BE58EC619D2518D00567073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BE58EC719D2518D00567073 /* Build configuration list for PBXNativeTarget "DHAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +480,7 @@
 				5BE58EC919D2518D00567073 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

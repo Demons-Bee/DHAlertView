@@ -7,14 +7,14 @@ DHAlertView
 
 ####竖屏的风格如下:
 
-![竖屏](https://github.com/DahanHu/DHAlertView/blob/master/DHAlertView/screenshots/iOS%20Simulator%20Screen%20Shot%202014%E5%B9%B410%E6%9C%8824%E6%97%A5%2011.47.51.png)
+<img src="https://github.com/DahanHu/DHAlertView/blob/master/DHAlertView/screenshots/iOS%20Simulator%20Screen%20Shot%202014%E5%B9%B410%E6%9C%8824%E6%97%A5%2011.47.51.png" alt="DHAlertView" title="DHAlertView" width="320" height="568" />
 
 ####横屏照样可以完美:
-![横屏](https://github.com/DahanHu/DHAlertView/blob/master/DHAlertView/screenshots/iOS%20Simulator%20Screen%20Shot%202014%E5%B9%B410%E6%9C%8824%E6%97%A5%2011.48.34.png)
+<img src="https://github.com/DahanHu/DHAlertView/blob/master/DHAlertView/screenshots/iOS%20Simulator%20Screen%20Shot%202014%E5%B9%B410%E6%9C%8824%E6%97%A5%2011.48.34.png" alt="DHAlertView" title="DHAlertView" width="568" height="320" />
 
 如上图中所示,对话框中的View你可以进行任意的自定义.
 
-Usage
+How to use
 ===========
         
         DHAlertView *alert = [[DHAlertView alloc] initWithTitle:@"Your Title" contentView:YourCustomView completion:^{

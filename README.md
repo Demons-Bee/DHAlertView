@@ -16,13 +16,13 @@ DHAlertView
 
 Usage
 ===========
-
-DHAlertView *alert = [[DHAlertView alloc] initWithTitle:@"Your Title" contentView:YourCustomView completion:^{  
-        // Do anything you want do in this block        
-}];
-    
-[alert show];
+        
+        DHAlertView *alert = [[DHAlertView alloc] initWithTitle:@"Your Title" contentView:YourCustomView completion:^{
+                // Do anything you want do in this block        
+        }];
+        
+        [alert show];
 
 想自动消失的话:
-
-[alert dismiss];
+        
+        [alert dismiss];

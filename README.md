@@ -26,3 +26,9 @@ How to use
 想自动消失的话:
         
         [alert dismiss];
+
+
+License
+=======
+
+These specifications and CocoaPods are available under the [MIT license](http://opensource.org/licenses/mit-license.php).
